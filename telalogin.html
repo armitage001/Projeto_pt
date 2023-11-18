@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./telalogin.css">
+</head>
+<body>
+
+<div class="top-barra">
+  <div class="logo">
+    <img src="https://dev.cjr.org.br/wp-content/uploads/2022/08/logo-colorida.png" alt="Logo da Empresa">
+  </div>
+  <div>
+    <button onclick="window.location.href='telalogin.html'">Entrar</button>
+    <button onclick="window.location.href='telacadastro.html'">Criar conta</button>
+  </div>
+</div>
+
+<div class="login-container">
+  <div class="icon-container">
+    <img class="pessoa-generica" src="https://cdn-icons-png.flaticon.com/512/2102/2102647.png" alt="Ícone de Pessoa">
+  </div>
+  <form novalidate>
+    <div class="icon-container">
+      <img class="login-icon" src="https://cdn-icons-png.flaticon.com/512/482/482636.png" alt="Ícone de Pessoa">
+      <input type="text" placeholder="Usuário" required>
+    </div>
+    <div class="icon-container">
+      <img class="senha-icon" src="https://cdn-icons-png.flaticon.com/512/45/45259.png" alt="Ícone de Cadeado">
+      <input type="password" placeholder="Senha" required>
+    </div>
+    <p><a href="#">Esqueci minha senha</a></p>
+    <button type="submit">Entrar</button>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    font-family: 'Courier New', Courier, monospace, Arial, sans-serif;
+    background-color: #001830;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .top-barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #27BD80;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  
+  .cadastro-container {
+    background-color: #EAEFF2;
+    padding: 8px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 108px 1080px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .icon-container img {
+    position: absolute;
+    left: 10px;
+  }
+
+  .escolha-foto {
+    width: 150px;
+    height: 150px;
+    margin: -24px -80px 56px;
+  }
+  
+  input {
+    margin: 24px 0;
+    padding-top: 24px;
+    width: calc(100% - 20px);
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #001830;
+    border-radius: 16px;
+    background-color: #ecf0f1;
+    color: #001830;
+    font-family: sans-serif, 'Lucida Sans';
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #001830;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: sans-serif, 'Lucida Sans';
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .Cjr-grande {
+    flex-grow: 1;
+  }
+  
+  .Cjr-grande img {
+    width: 30%;
+    margin: -600px 180px 140px;
+    height: auto;
+  }
