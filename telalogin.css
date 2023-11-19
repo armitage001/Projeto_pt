@@ -1,25 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #001830;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
     font-family: sans-serif, 'Lucida Sans';
     font-weight: bold;
   }
   
   .top-barra {
+    background-color: #27BD80;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #27BD80;
-    padding: 10px;
+    height: 10vh;
+    top: 0;
   }
   
   .logo img {
-    width: 100px;
-    height: auto;
-    padding-bottom: 10px;
+    margin-left: 2vw;
+    margin-top: auto;
+    cursor: pointer;
   }
+  
+  .Criar_Entrar{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.5vw;
+    align-items: center;
+}
+
+  .Criar{
+    margin-right: 2vw;
+    color: #001830;
+    cursor: pointer;
+}
+
+  .Entrar{
+    border-radius: 15px;
+    background-color: #001830;
+    color: white;
+    height: 7.5vh;
+    font-size: 20px;
+    font-weight: bold;
+    width: 9vw;
+    margin-left: 2vw;
+    cursor: pointer;
+    margin-top: 0;
+}
   
   .login-container {
     background-color: #EAEFF2;
@@ -71,14 +97,18 @@ body {
   button {
     background-color: #001830;
     color: #fff;
-    padding: 15px 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 16px;
     font-family: sans-serif, 'Lucida Sans';
     font-weight: bold;
     font-size: 18px;
+    width: 100%;
+    height: 20%;
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .icon-container {
