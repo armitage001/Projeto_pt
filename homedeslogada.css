@@ -1,0 +1,145 @@
+:root{
+    --corPrincipal:#001830;
+    --corCabeçalho:#27BD80;
+    --corSecundaria: #002F67;
+}
+
+body{
+    background-color: var(--corPrincipal);
+    margin:0 0 0 0;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--corCabeçalho);
+    height: 10vh;
+    top:0;
+}
+
+.logo{
+    margin-left: 2vw;
+    margin-top: auto;
+}
+
+.Criar_Entrar{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.5vw;
+    align-items: center;
+}
+
+.Criar{
+    margin-right: 2vw;
+    color: var(--corPrincipal);
+}
+
+
+.Entrar{
+    border-radius:15px;
+    background-color: var(--corPrincipal);
+    color: white;
+    height: 7.5vh;
+    font-size: 20px;
+    font-weight: bold;
+    width: 9vw;
+    margin-left: 2vw;
+    
+}
+
+.painelDeFundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#EAEFF2;
+    width: 40vw;
+    height:200vh;
+}
+
+.publis{
+    font-size: 25px;
+    flex-direction: column;
+    font-weight: bold;
+    margin-right: 30vw;
+    color: var(--corPrincipal);
+    height: 4vh;
+    width:6vw;
+    
+}
+
+.botoes{
+    width: 100%;
+    height: 5%;
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.linha1{
+    margin-top: 1vh;
+    color: var(--corPrincipal);
+    height: 1.5px;
+    background: #001830;
+}
+
+.post{
+    margin-top: 15px;
+    width: 38vw;
+    height: 27vh;
+    background-color: var(--corSecundaria);
+    border-radius: 24px;
+     
+}
+.NomeEFoto{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.data{
+    margin-left: 15vw;
+    font-size:17px ;
+    color: white;
+    font-size: 15px;
+    margin-left: 2vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.nomePost{
+    color: #ECF3FB;
+    
+}
+.fotoPost{
+    border-radius: 50%;
+    scale:0.8;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+.text{
+    display: flex;
+    justify-content: left;
+    color: #ECF3FB;
+    margin-left: 5vw;
+    margin-right: 2vw;
+}
+
