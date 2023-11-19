@@ -7,6 +7,8 @@
 body{
     background-color: var(--corPrincipal);
     margin:0 0 0 0;
+    font-family: sans-serif, 'Lucida Sans';
+    font-weight: bold;
 }
 
 main{
@@ -39,6 +41,7 @@ main{
 .Criar{
     margin-right: 2vw;
     color: var(--corPrincipal);
+    cursor: pointer;
 }
 
 
@@ -51,7 +54,7 @@ main{
     font-weight: bold;
     width: 9vw;
     margin-left: 2vw;
-    
+    cursor: pointer;
 }
 
 .painelDeFundo{
@@ -81,7 +84,9 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    font-family: sans-serif, 'Lucida Sans';
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .linha1{
